@@ -34,17 +34,17 @@ resnet50-cifar10-finetune/
 bash
 git clone https://github.com/yourusername/resnet50-cifar10-finetune.git
 cd resnet50-cifar10-finetune
-
-2️⃣ **Create a virtual environment**
 ```
+2️⃣ **Create a virtual environment**
+
 python -m venv venv
 source venv/bin/activate    # On macOS/Linux
 venv\Scripts\activate       # On Windows
-
+```
 3️⃣ **Install dependencies**
 ```
 pip install -r requirements.txt
-
+```
 **Example requirements.txt:**
 ```
 torch
@@ -71,7 +71,7 @@ This will:
 
 Print classification metrics
 ```
-📈 Example Output
+📈 **Example Output**
 ```
 Classification Report
               precision    recall  f1-score   support
@@ -98,5 +98,5 @@ model.load_state_dict(torch.load('cifar10_model.pt'))
 model.eval()
 
 ## 🔗 Links
-- [View Notebook on Kaggle](https://www.kaggle.com/code/syeddildarshah/simple-cnn-implementation-on-cifar-10-100)
+- [View Notebook on Kaggle](https://www.kaggle.com/code/syeddildarshah/baseline-model-resnet-50-implentation)
 
