@@ -18,6 +18,7 @@ It includes a full training and evaluation pipeline with data augmentation, dyna
 ```
 
 ## 🧩 Project Structure
+```
 resnet50-cifar10-finetune/
 │
 ├── cifar10_train.py # Main training and evaluation script
