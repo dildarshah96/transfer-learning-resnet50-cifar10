@@ -15,8 +15,6 @@ It includes a full training and evaluation pipeline with data augmentation, dyna
 - 🧾 **Classification Report** (Precision, Recall, F1-score)
 - 💾 **Model Saving** and reproducibility-friendly setup
 
-```
-
 ## 🧩 **Project Structure**
 ```
 resnet50-cifar10-finetune/
@@ -72,7 +70,7 @@ This will:
 4. Plot loss and accuracy curves
 
 5. Print classification metrics
-```
+
 📈 **Example Output**
 ```
 Classification Report
@@ -80,7 +78,7 @@ Classification Report
 
            0       0.91      0.89      0.90      1000
            1       0.95      0.94      0.95      1000
-```           
+          
 Model Summary
 > Final Test Accuracy: 93.472%
 Total parameters: 23500000
