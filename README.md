@@ -28,20 +28,23 @@ resnet50-cifar10-finetune/
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Clone the repository
+1️⃣ Clone the repository
 ```bash
 git clone https://github.com/yourusername/resnet50-cifar10-finetune.git
 cd resnet50-cifar10-finetune
 
 2️⃣ Create a virtual environment
+```
 python -m venv venv
 source venv/bin/activate    # On macOS/Linux
 venv\Scripts\activate       # On Windows
 
 3️⃣ Install dependencies
+```
 pip install -r requirements.txt
 
 Example requirements.txt:
+```
 torch
 torchvision
 numpy
@@ -52,6 +55,7 @@ scikit-learn
 🏋️‍♂️ Training the Model
 
 Run the training pipeline:
+```
 python cifar10_train.py
 This will:
 
