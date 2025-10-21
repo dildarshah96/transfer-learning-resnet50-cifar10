@@ -80,6 +80,7 @@ Classification Report
 
            0       0.91      0.89      0.90      1000
            1       0.95      0.94      0.95      1000
+```           
 Model Summary
 > Final Test Accuracy: 93.472%
 Total parameters: 23500000
