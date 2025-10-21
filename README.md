@@ -17,8 +17,8 @@ It includes a full training and evaluation pipeline with data augmentation, dyna
 
 ```
 
-## 🧩 Project Structure
-```
+## 🧩 **Project Structure**
+
 resnet50-cifar10-finetune/
 │
 ├── cifar10_train.py # Main training and evaluation script
@@ -30,22 +30,22 @@ resnet50-cifar10-finetune/
 
 ## ⚙️ Setup Instructions
 
-1️⃣ Clone the repository
-```bash
+1️⃣ **Clone the repository**
+bash
 git clone https://github.com/yourusername/resnet50-cifar10-finetune.git
 cd resnet50-cifar10-finetune
 
-2️⃣ Create a virtual environment
+2️⃣ **Create a virtual environment**
 ```
 python -m venv venv
 source venv/bin/activate    # On macOS/Linux
 venv\Scripts\activate       # On Windows
 
-3️⃣ Install dependencies
+3️⃣ **Install dependencies**
 ```
 pip install -r requirements.txt
 
-Example requirements.txt:
+**Example requirements.txt:**
 ```
 torch
 torchvision
@@ -54,7 +54,7 @@ matplotlib
 seaborn
 scikit-learn
 
-🏋️‍♂️ Training the Model
+🏋️‍♂️ **Training the Model**
 ```
 Run the training pipeline:
 
@@ -73,10 +73,6 @@ Print classification metrics
 ```
 📈 Example Output
 ```
-Training Progress
-
-Loss and accuracy curves are displayed using Matplotlib + Seaborn.
-
 Classification Report
               precision    recall  f1-score   support
 
@@ -89,7 +85,7 @@ Total parameters: 23500000
 Trainable parameters: 23500000
 Total run time: 1520.33 seconds
 ```
-💾 Saving & Loading the Model
+💾 **Saving & Loading the Model**
 ```
 To load your saved model later:
 from torchvision.models import resnet50
