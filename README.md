@@ -1,11 +1,11 @@
 # transfer-learning-resnet50-cifar10/100
 CIFAR-10/100 image classification using a fine-tuned ResNet-50 pretrained on ImageNet. Includes full training pipeline with data augmentation, learning rate scheduling, gradient clipping, and detailed performance diagnostics.
----
+
 # CIFAR-10/100 Image Classification with ResNet-50
 
 This project demonstrates how to fine-tune a **ResNet-50** model pretrained on **ImageNet** for **CIFAR-10** image classification.  
 It includes a full training and evaluation pipeline with data augmentation, dynamic learning rate scheduling, and performance visualization.
----
+
 ## 🚀 Features
 
 - ✅ **Transfer Learning** using pretrained ResNet-50 (`torchvision.models.resnet50`)
@@ -17,7 +17,7 @@ It includes a full training and evaluation pipeline with data augmentation, dyna
 - 🧾 **Classification Report** (Precision, Recall, F1-score)
 - 💾 **Model Saving** and reproducibility-friendly setup
 
----
+
 
 ## 🧩 Project Structure
 resnet50-cifar10-finetune/
@@ -27,7 +27,6 @@ resnet50-cifar10-finetune/
 ├── results/ # Folder for plots and saved model (optional)
 ├── requirements.txt # Python dependencies
 └── README.md
----
 
 ## ⚙️ Setup Instructions
 
@@ -77,8 +76,7 @@ Classification Report
 
            0       0.91      0.89      0.90      1000
            1       0.95      0.94      0.95      1000
-           ...
-
+   
 Model Summary
 > Final Test Accuracy: 93.472%
 Total parameters: 23500000
