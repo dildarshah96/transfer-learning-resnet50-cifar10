@@ -71,7 +71,7 @@ This will:
 
 4. Plot loss and accuracy curves
 
-5 Print classification metrics
+5. Print classification metrics
 ```
 📈 **Example Output**
 ```
