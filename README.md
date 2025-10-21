@@ -15,7 +15,7 @@ It includes a full training and evaluation pipeline with data augmentation, dyna
 - 🧾 **Classification Report** (Precision, Recall, F1-score)
 - 💾 **Model Saving** and reproducibility-friendly setup
 
-
+```
 
 ## 🧩 Project Structure
 resnet50-cifar10-finetune/
@@ -25,6 +25,7 @@ resnet50-cifar10-finetune/
 ├── results/ # Folder for plots and saved model (optional)
 ├── requirements.txt # Python dependencies
 └── README.md
+```
 
 ## ⚙️ Setup Instructions
 
@@ -53,9 +54,9 @@ seaborn
 scikit-learn
 
 🏋️‍♂️ Training the Model
-
-Run the training pipeline:
 ```
+Run the training pipeline:
+
 python cifar10_train.py
 This will:
 
@@ -68,7 +69,9 @@ This will:
 4. Plot loss and accuracy curves
 
 Print classification metrics
+```
 📈 Example Output
+```
 Training Progress
 
 Loss and accuracy curves are displayed using Matplotlib + Seaborn.
@@ -78,15 +81,15 @@ Classification Report
 
            0       0.91      0.89      0.90      1000
            1       0.95      0.94      0.95      1000
-   
+   ```
 Model Summary
 > Final Test Accuracy: 93.472%
 Total parameters: 23500000
 Trainable parameters: 23500000
 Total run time: 1520.33 seconds
-
+```
 💾 Saving & Loading the Model
-
+```
 To load your saved model later:
 from torchvision.models import resnet50
 import torch
