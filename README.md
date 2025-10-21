@@ -5,7 +5,7 @@ This project demonstrates how to fine-tune a **ResNet-50** model pretrained on *
 It includes a full training and evaluation pipeline with data augmentation, dynamic learning rate scheduling, and performance visualization.
 ```
 ## 🚀 Features
-
+```
 - ✅ **Transfer Learning** using pretrained ResNet-50 (`torchvision.models.resnet50`)
 - 🧠 **Fine-tuning** on CIFAR-10 (10 classes)
 - 🎨 **Data Augmentation** (random crop, resize, horizontal flip, normalization)
