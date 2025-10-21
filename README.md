@@ -3,7 +3,7 @@
 
 This project demonstrates how to fine-tune a **ResNet-50** model pretrained on **ImageNet** for **CIFAR-10** image classification.  
 It includes a full training and evaluation pipeline with data augmentation, dynamic learning rate scheduling, and performance visualization.
-
+```
 ## 🚀 Features
 
 - ✅ **Transfer Learning** using pretrained ResNet-50 (`torchvision.models.resnet50`)
@@ -18,7 +18,7 @@ It includes a full training and evaluation pipeline with data augmentation, dyna
 ```
 
 ## 🧩 **Project Structure**
-
+```
 resnet50-cifar10-finetune/
 │
 ├── cifar10_train.py # Main training and evaluation script
@@ -31,12 +31,13 @@ resnet50-cifar10-finetune/
 ## ⚙️ Setup Instructions
 
 1️⃣ **Clone the repository**
+```
 bash
 git clone https://github.com/yourusername/resnet50-cifar10-finetune.git
 cd resnet50-cifar10-finetune
 ```
 2️⃣ **Create a virtual environment**
-
+```
 python -m venv venv
 source venv/bin/activate    # On macOS/Linux
 venv\Scripts\activate       # On Windows
@@ -53,12 +54,13 @@ numpy
 matplotlib
 seaborn
 scikit-learn
-
+```
 🏋️‍♂️ **Training the Model**
 ```
 Run the training pipeline:
 
 python cifar10_train.py
+```
 This will:
 
 1. Download and augment CIFAR-10
@@ -79,7 +81,8 @@ Classification Report
            0       0.91      0.89      0.90      1000
            1       0.95      0.94      0.95      1000
    ```
-Model Summary
+**Model Summary**
+```
 > Final Test Accuracy: 93.472%
 Total parameters: 23500000
 Trainable parameters: 23500000
@@ -96,7 +99,8 @@ model = resnet50(weights=None)
 model.fc = nn.Linear(2048, 10)
 model.load_state_dict(torch.load('cifar10_model.pt'))
 model.eval()
-
+```
 ## 🔗 Links
 - [View Notebook on Kaggle](https://www.kaggle.com/code/syeddildarshah/baseline-model-resnet-50-implentation)
+
 
