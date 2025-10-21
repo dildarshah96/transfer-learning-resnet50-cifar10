@@ -101,6 +101,5 @@ model.load_state_dict(torch.load('cifar10_model.pt'))
 model.eval()
 ```
 ## 🔗 Links
+```
 - [View Notebook on Kaggle](https://www.kaggle.com/code/syeddildarshah/baseline-model-resnet-50-implentation)
-
-
