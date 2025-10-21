@@ -3,7 +3,7 @@
 
 This project demonstrates how to fine-tune a **ResNet-50** model pretrained on **ImageNet** for **CIFAR-10** image classification.  
 It includes a full training and evaluation pipeline with data augmentation, dynamic learning rate scheduling, and performance visualization.
-```
+
 ## 🚀 Features
 
 - ✅ **Transfer Learning** using pretrained ResNet-50 (`torchvision.models.resnet50`)
