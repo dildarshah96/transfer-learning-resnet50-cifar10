@@ -71,7 +71,7 @@ This will:
 
 4. Plot loss and accuracy curves
 
-Print classification metrics
+5 Print classification metrics
 ```
 📈 **Example Output**
 ```
@@ -80,9 +80,7 @@ Classification Report
 
            0       0.91      0.89      0.90      1000
            1       0.95      0.94      0.95      1000
-   ```
-**Model Summary**
-```
+Model Summary
 > Final Test Accuracy: 93.472%
 Total parameters: 23500000
 Trainable parameters: 23500000
